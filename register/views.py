@@ -6,8 +6,8 @@ def register(response):
     if response.method=="POST":
         form = RegisterForm(response.POST)
         if form.is_valid():
-            x=form.save()
-            x.save()
+            form.save()
+            
             return redirect("/login")
     else:
         form = RegisterForm()
