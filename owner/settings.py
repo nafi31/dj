@@ -17,7 +17,7 @@ SECRET_KEY = 'z+kz-!l9u(8lnjtj$#&q5au8hzbdqi_ivs^d4ik-)1hxgpe^&6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['nafidjango.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['nafidjango.herokuapp.com','127.0.0.1', 'djangomemo2.herokuapp.com']
 
 
 # Application definition
